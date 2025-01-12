@@ -6,7 +6,7 @@
 #include <utility>
 #include <string>
 #include <cassert>
-
+// avtor Luxurys_Lukuchi
 // Функция для вычисления хеша строки с использованием алгоритма DJB2
 unsigned long hash_djb2(const std::string& str) {
     unsigned long hash = 5381;
